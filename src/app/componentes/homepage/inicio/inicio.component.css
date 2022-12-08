@@ -1,0 +1,14 @@
+.carousel{
+    box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.cards{
+    padding-top: 3%;
+}
+.example-card{
+    background-color: #ddfbfb;
+    width: 25%;
+    box-shadow: 0 3px 5px 2px black;
+}
+.titulo{
+    padding-top: 130%;
+}

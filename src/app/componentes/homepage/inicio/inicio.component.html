@@ -1,0 +1,54 @@
+<ngb-carousel class="carousel mat-elevation-z4" *ngIf="images">
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide" width="100%" height="550w"/>
+        </div>
+        <div class="carousel-caption">
+            <!--            <h3>10 seconds between slides...</h3>-->
+            <!--            <p>This carousel uses customized default values.</p>-->
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[1]" alt="Random second slide" width="100%" height="550w"/>
+        </div>
+        <div class="carousel-caption">
+            <!--            <h3>No mouse events...</h3>-->
+            <!--            <p>This carousel doesn't pause or resume on mouse events</p>-->
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[2]" alt="Random third slide"width="100%" height="550w" />
+        </div>
+        <div class="carousel-caption">
+            <!--            <h3>No keyboard...</h3>-->
+            <!--            <p>This carousel uses customized default values.</p>-->
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[3]" alt="Random fourth slide" width="100%" height="550w" />
+        </div>
+        <div class="carousel-caption">
+            <!--            <h3>And no wrap after last slide.</h3>-->
+            <!--            <p>This carousel uses customized default values.</p>-->
+        </div>
+    </ng-template>
+</ngb-carousel>
+
+<mat-card class="example-card mt-5" >
+    <mat-card-header>
+        <mat-card-title class="titulo">Pai Guiné</mat-card-title>
+        <mat-card-title-group class="mt-2">
+            <img class="ms-4" mat-card-xl-image src="assets/images/cards/paiguine.jpeg"  alt="Pai Guine">
+        </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-subtitle class="mt-2"><h3>Pai Guiné um velho negro que fez de sua vida um eterno amor ao próximo, sofreu e mesmo assim doou seu amor ao seu semelhante.</h3></mat-card-subtitle>
+    <mat-card-content>
+
+    </mat-card-content>
+</mat-card>
+
+
+

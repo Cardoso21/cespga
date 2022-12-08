@@ -1,0 +1,15 @@
+.oxum_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0,0.5);
+}
+.subtitulo{
+    color: rgba(76, 64, 64, 0.62);
+}
+.negrito{
+    font-weight: bold;
+}
