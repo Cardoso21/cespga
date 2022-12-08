@@ -56,7 +56,7 @@ export class AppComponent implements AfterViewInit, OnDestroy, OnInit {
 
         this.menuService.itens = [
             { label: 'Inicio', routerLink: ['inicio'] },
-            { label: 'Orixás', items:[
+            { label: 'Orixás', items: [
                 { label: 'Oxalá', routerLink: ['oxala']},
                 { label: 'Ossaim', routerLink: ['ossaim']},
                 { label: 'Oxumarê', routerLink: ['oxumare']},
@@ -71,15 +71,16 @@ export class AppComponent implements AfterViewInit, OnDestroy, OnInit {
                 { label: 'Exú'},
             ]},
             { label: 'Entidades', items: [
-                {label: 'Direita',items:[
+                {label: 'Direita', items: [
                     {label: 'Preto Velho'},
                     {label: 'Caboclo'},
                 ]},
-                {label: 'Esquerda',items:[
+                {label: 'Esquerda', items: [
                     {label: 'Exú'},
                 ]},
-
-            ]}
+            ]},
+            { label: 'Agenda' },
+            { label: 'Galeria' },
         ];
     }
 

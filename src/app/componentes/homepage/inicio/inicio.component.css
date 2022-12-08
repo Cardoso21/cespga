@@ -12,3 +12,14 @@
 .titulo{
     padding-top: 130%;
 }
+@media (min-width:300px) and (max-width:600px){
+    .example-card{
+        width:auto;
+    }
+}
+
+@media (min-width:600px) and (max-width:1460px){
+    .example-card{
+        width:50%;
+    }
+}
